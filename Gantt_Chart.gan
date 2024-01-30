@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="AE429-G08-GANTT-CHART" company="" webLink="http://" view-date="2024-02-01" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="AE429-G08-GANTT-CHART" company="" webLink="http://" view-date="2024-02-01" view-index="0" gantt-divider-location="336" resource-divider-location="300" version="3.2.3230" locale="en_US">
     <description/>
     <view zooming-state="default:8" id="gantt-chart">
         <field id="tpd3" name="Name" width="191" order="0"/>
@@ -37,7 +37,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Project Proposal" color="#ff0000" meeting="false" start="2024-01-28" duration="3" complete="100" thirdDate="2024-01-28" thirdDate-constraint="0" expand="false">
+        <task id="0" name="Project Proposal" color="#ff0000" meeting="false" start="2024-01-28" duration="3" complete="100" thirdDate="2024-01-28" thirdDate-constraint="0" expand="true">
             <task id="26" name="Write Project Proposal" color="#8cb6ce" meeting="false" start="2024-01-28" duration="2" complete="100" thirdDate="2024-01-25" thirdDate-constraint="0" expand="true">
                 <depend id="7" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -46,7 +46,7 @@
             </task>
             <task id="7" name="Review and Submit" color="#00ff33" meeting="false" start="2024-01-30" duration="1" complete="100" thirdDate="2024-01-28" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="1" name="Atmosphere and Data Measurements Memo" color="#ff0000" meeting="false" start="2024-01-31" duration="7" complete="0" thirdDate="2024-01-28" thirdDate-constraint="0" expand="false">
+        <task id="1" name="Atmosphere and Data Measurements Memo" color="#ff0000" meeting="false" start="2024-01-31" duration="7" complete="0" thirdDate="2024-01-28" thirdDate-constraint="0" expand="true">
             <task id="9" name="Create a MATLAB Atmosphere Model App" color="#8cb6ce" meeting="false" start="2024-01-31" duration="3" complete="0" thirdDate="2024-01-28" thirdDate-constraint="0" expand="true">
                 <depend id="10" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -56,7 +56,7 @@
             </task>
             <task id="8" name="Review and Submit Memo" color="#00ff33" meeting="false" start="2024-02-06" duration="1" complete="0" thirdDate="2024-01-28" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="2" name="Force System and Equations of Motion Report" color="#ff0000" meeting="false" start="2024-02-06" duration="15" complete="0" thirdDate="2024-02-06" thirdDate-constraint="0" expand="false">
+        <task id="2" name="Force System and Equations of Motion Report" color="#ff0000" meeting="false" start="2024-02-06" duration="15" complete="0" thirdDate="2024-02-06" thirdDate-constraint="0" expand="true">
             <task id="15" name="Calculate Aerodynamic Loads" color="#8cb6ce" meeting="false" start="2024-02-06" duration="9" complete="0" thirdDate="2024-01-07" thirdDate-constraint="0" expand="true">
                 <depend id="27" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -71,7 +71,7 @@
             </task>
             <task id="13" name="Review and Submit" color="#00ff33" meeting="false" start="2024-02-20" duration="1" complete="0" thirdDate="2024-01-07" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="3" name="Cruise, Climb, and Descent Performance Memo" color="#ff0000" meeting="false" start="2024-02-20" duration="24" complete="0" thirdDate="2024-02-20" thirdDate-constraint="0" expand="false">
+        <task id="3" name="Cruise, Climb, and Descent Performance Memo" color="#ff0000" meeting="false" start="2024-02-20" duration="24" complete="0" thirdDate="2024-02-20" thirdDate-constraint="0" expand="true">
             <task id="18" name="Range and Endurance Calculations" color="#8cb6ce" meeting="false" start="2024-02-20" duration="8" complete="0" thirdDate="2024-01-14" thirdDate-constraint="0" expand="true">
                 <depend id="29" type="2" difference="0" hardness="Strong"/>
             </task>
