@@ -3,7 +3,7 @@
 clear
 clc
 
-geopotentialAltitude = 701.04; % meters
+geopotentialAltitude = 6500; % meters
 
 [temperature, speedOfSound, pressure, density] = atmosisa(geopotentialAltitude);
 
