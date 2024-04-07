@@ -21,6 +21,8 @@ fj = 2.2e-5 * 8;
 % Cruise Properties
 V = 290;
 
+
+
 %% Calculate Forces
 W = mi * g;
 L = W;
@@ -28,5 +30,9 @@ D = 1/2 * p * V^2 * S * CD;
 T = D;
 LDmax = 1/sqrt(4*CD0*k);
 
+
+
 z = 1+sqrt(1+(3/((LDmax^2)+((T/W)^2))));
+
+V = sqrt((T/W)*(W/S)*z/(3*p*CD0));
 rate = sqrt(((W/S)*z)/(3*p*CD0))*((T/W)^(3/2))*(1-(z/6)-(3/(2*((T/W)^2)*(LDmax^2)*z)));
