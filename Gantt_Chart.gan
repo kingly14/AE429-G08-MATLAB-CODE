@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="AE429-G08-GANTT-CHART" company="" webLink="http://" view-date="2023-12-01" view-index="0" gantt-divider-location="276" resource-divider-location="300" version="3.2.3230" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="AE429-G08-GANTT-CHART" company="" webLink="http://" view-date="2023-12-01" view-index="0" gantt-divider-location="387" resource-divider-location="300" version="3.2.3230" locale="en_US">
     <description/>
     <view zooming-state="default:8" id="gantt-chart">
-        <field id="tpd3" name="Name" width="147" order="0"/>
-        <field id="tpd4" name="Begin date" width="57" order="1"/>
-        <field id="tpd5" name="End date" width="56" order="2"/>
+        <field id="tpd3" name="Name" width="210" order="0"/>
+        <field id="tpd4" name="Begin date" width="82" order="1"/>
+        <field id="tpd5" name="End date" width="79" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#00ff33 #00ffff #ff0000]]>
@@ -108,40 +108,40 @@
             </task>
             <task id="13" name="Review and Submit" color="#00ff33" meeting="false" start="2024-02-20" duration="1" complete="100" thirdDate="2024-01-07" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="3" name="Cruise, Climb, and Descent Performance Memo" color="#ff0000" meeting="false" start="2024-02-20" duration="24" complete="0" thirdDate="2024-02-20" thirdDate-constraint="0" expand="true">
-            <task id="18" name="Range and Endurance Calculations" color="#8cb6ce" meeting="false" start="2024-02-20" duration="8" complete="0" thirdDate="2024-01-14" thirdDate-constraint="0" expand="true">
+        <task id="3" name="Cruise, Climb, and Descent Performance Memo" color="#ff0000" meeting="false" start="2024-02-20" duration="50" complete="100" thirdDate="2024-02-20" thirdDate-constraint="0" expand="true">
+            <task id="18" name="Range and Endurance Calculations" color="#8cb6ce" meeting="false" start="2024-02-20" duration="46" complete="100" thirdDate="2024-01-14" thirdDate-constraint="0" expand="true">
                 <depend id="29" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="19" name="Climb Performance Calculations" color="#8cb6ce" meeting="false" start="2024-02-20" duration="8" complete="0" thirdDate="2024-01-14" thirdDate-constraint="0" expand="true">
+            <task id="19" name="Climb Performance Calculations" color="#8cb6ce" meeting="false" start="2024-02-20" duration="46" complete="100" thirdDate="2024-01-14" thirdDate-constraint="0" expand="true">
                 <depend id="29" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="20" name="Descent Performance Calculations" color="#8cb6ce" meeting="false" start="2024-02-20" duration="8" complete="0" thirdDate="2024-02-20" thirdDate-constraint="0" expand="true">
+            <task id="20" name="Descent Performance Calculations" color="#8cb6ce" meeting="false" start="2024-02-20" duration="46" complete="100" thirdDate="2024-02-20" thirdDate-constraint="0" expand="true">
                 <depend id="29" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="29" name="Verify and Validate Performance Calculations" color="#8cb6ce" meeting="false" start="2024-02-28" duration="5" complete="0" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true">
+            <task id="29" name="Verify and Validate Performance Calculations" color="#8cb6ce" meeting="false" start="2024-04-06" duration="3" complete="100" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true">
                 <depend id="17" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="16" name="Write the Memo" color="#8cb6ce" meeting="false" start="2024-02-20" duration="23" complete="0" thirdDate="2024-01-14" thirdDate-constraint="0" expand="true">
+            <task id="16" name="Write the Memo" color="#8cb6ce" meeting="false" start="2024-02-21" duration="48" complete="100" thirdDate="2024-01-14" thirdDate-constraint="0" expand="true">
                 <depend id="17" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="17" name="Review and Submit" color="#00ff33" meeting="false" start="2024-03-14" duration="1" complete="0" thirdDate="2024-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="17" name="Review and Submit" color="#00ff33" meeting="false" start="2024-04-09" duration="1" complete="100" thirdDate="2024-01-14" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="4" name="Takeoff, Landing, and Manoeuver Performace Memo" color="#ff0000" meeting="false" start="2024-03-14" duration="22" complete="0" thirdDate="2024-03-14" thirdDate-constraint="0" expand="true">
-            <task id="31" name="Takeoff, Landing, and Manoeuver Calculations" color="#8cb6ce" meeting="false" start="2024-03-14" duration="8" complete="0" thirdDate="2024-03-14" thirdDate-constraint="0" expand="true">
+        <task id="4" name="Takeoff, Landing, and Manoeuver Performace Memo" color="#ff0000" meeting="false" start="2024-04-09" duration="10" complete="0" thirdDate="2024-03-14" thirdDate-constraint="0" expand="true">
+            <task id="31" name="Takeoff, Landing, and Manoeuver Calculations" color="#8cb6ce" meeting="false" start="2024-04-09" duration="8" complete="0" thirdDate="2024-03-14" thirdDate-constraint="0" expand="true">
                 <depend id="30" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="30" name="Verify and Validate Takeoff, Landing, and Manoeuver Calculations" color="#8cb6ce" meeting="false" start="2024-03-22" duration="8" complete="0" thirdDate="2024-02-01" thirdDate-constraint="0" expand="true"/>
-            <task id="21" name="Write the Memo" color="#8cb6ce" meeting="false" start="2024-03-14" duration="21" complete="0" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true">
+            <task id="30" name="Verify and Validate Takeoff, Landing, and Manoeuver Calculations" color="#8cb6ce" meeting="false" start="2024-04-17" duration="1" complete="0" thirdDate="2024-02-01" thirdDate-constraint="0" expand="true"/>
+            <task id="21" name="Write the Memo" color="#8cb6ce" meeting="false" start="2024-04-09" duration="9" complete="0" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true">
                 <depend id="22" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="22" name="Review and Submit" color="#00ff33" meeting="false" start="2024-04-04" duration="1" complete="0" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true"/>
+            <task id="22" name="Review and Submit" color="#00ff33" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="5" name="Final Presentation" color="#ff0000" meeting="false" start="2024-04-04" duration="11" complete="0" thirdDate="2024-04-04" thirdDate-constraint="0" expand="true">
-            <task id="25" name="Verify and Validate all Results" color="#8cb6ce" meeting="false" start="2024-04-04" duration="7" complete="0" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true"/>
-            <task id="23" name="Create Presentation" color="#8cb6ce" meeting="false" start="2024-04-04" duration="9" complete="0" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true">
+        <task id="5" name="Final Presentation" color="#ff0000" meeting="false" start="2024-04-18" duration="4" complete="0" thirdDate="2024-04-04" thirdDate-constraint="0" expand="true">
+            <task id="25" name="Verify and Validate all Results" color="#8cb6ce" meeting="false" start="2024-04-18" duration="3" complete="0" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="Create Presentation" color="#8cb6ce" meeting="false" start="2024-04-18" duration="3" complete="0" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true">
                 <depend id="24" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="24" name="Review, Submit, and Practice Presentation" color="#00ff33" meeting="false" start="2024-04-13" duration="2" complete="0" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true"/>
+            <task id="24" name="Review, Submit, and Practice Presentation" color="#00ff33" meeting="false" start="2024-04-21" duration="1" complete="0" thirdDate="2024-01-21" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
     <resources>
