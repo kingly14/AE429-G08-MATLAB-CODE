@@ -10,8 +10,8 @@
         </option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="206" order="0"/>
-        <field id="1" name="Default role" width="90" order="1"/>
+        <field id="0" name="Name" width="195" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
     </view>
     <!-- -->
     <calendars>
