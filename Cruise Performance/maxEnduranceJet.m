@@ -1,7 +1,7 @@
 % Calculates the maximum endurance of a jet aircraft.
 % Author: Ryan King
 
-function endurance = maxEnduranceJet(fj, liftToDrag, mi, me)
+function endurance = maxEnduranceJet(fj, g, liftToDrag, mi, me)
     % --------------------------------------------
     % fj: Thrust Specific Fuel Consumption (kg/Ns) 
     % liftToDrag: The lift to drag ratio
@@ -9,6 +9,6 @@ function endurance = maxEnduranceJet(fj, liftToDrag, mi, me)
     % me: End Mass (kg)
     % --------------------------------------------
 
-    endurance = (1/fj) * liftToDrag * log(mi/me);
+    endurance = (1/(fj*g)) * liftToDrag * log(mi/me);
 
 end

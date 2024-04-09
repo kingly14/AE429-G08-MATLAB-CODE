@@ -2,7 +2,7 @@
 % Author: Ryan King
 % Filippone 406 Eqn. 13.31 (modified)
 
-function range = maxRangeJet(fj, rho, S, CL, CD, mi, me)
+function range = maxRangeJet(fj, g, rho, S, CL, CD, mi, me)
     % --------------------------------------------
     % fj: Thrust Specific Fuel Consumption (kg/Ns) 
     % rho: Density (kg/m^3)
@@ -13,6 +13,6 @@ function range = maxRangeJet(fj, rho, S, CL, CD, mi, me)
     % me: End Mass (kg)
     % --------------------------------------------
 
-    range = (2/fj) * sqrt(2/(rho*S)) * (CL^(1/2)/CD) * (sqrt(mi) - sqrt(me));
+    range = (2/(fj*g)) * sqrt(2/(rho*S)) * (CL^(1/2)/CD) * (sqrt(mi*g) - sqrt(me*g));
 
 end
